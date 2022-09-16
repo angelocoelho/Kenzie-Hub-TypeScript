@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Outlet, useNavigate } from "react-router-dom";
 import { useContext, useEffect } from "react";
-import { UserContext } from "../../context/UseContext";
+import { UserContext } from "../../context/UserContext";
 
 function ProtectedRoutes() {
   const { user } = useContext(UserContext);

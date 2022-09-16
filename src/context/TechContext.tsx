@@ -2,8 +2,7 @@ import { createContext, useState, useContext } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { api } from "../services/api";
-import { UserContext } from "./UseContext";
-import { ITechnology} from "./UseContext";
+import { UserContext, ITechnology } from "./UserContext";
 
 
 interface ITechContext {
