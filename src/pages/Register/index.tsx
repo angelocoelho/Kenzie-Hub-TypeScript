@@ -1,10 +1,10 @@
 import * as yup from 'yup'; 
 import { useForm } from "react-hook-form"; 
 import { yupResolver } from '@hookform/resolvers/yup';
-import Container from './styled';
 import Header from '../../components/Header';
 import React, { useContext, useState } from 'react';
-import { UserContext, IFormRegister } from "../../context/UseContext";
+import { UserContext, IFormRegister } from "../../context/UserContext";
+import Container from './style';
 
 
 function Registro(){

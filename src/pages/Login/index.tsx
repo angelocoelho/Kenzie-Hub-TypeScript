@@ -2,10 +2,9 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useContext, useState } from "react";
-import Container from "./styled";
 import { Link } from "react-router-dom";
-import { UserContext } from "../../context/UseContext";
-import { IFormLogin } from "../../context/UseContext";
+import { UserContext, IFormLogin } from "../../context/UserContext";
+import Container from "./style";
 
 function Login() {
   const { onSubmitLogin } = useContext(UserContext);
@@ -62,7 +61,7 @@ function Login() {
           Cadastre-se
         </Link>
       </div>
-    </Container>
+    </Containe>
   );
 }
 
