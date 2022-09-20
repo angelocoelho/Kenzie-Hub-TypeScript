@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import Container from "./style";
 import { TechContext } from "../../context/TechContext";
-import { ITechnology } from "../../context/UseContext";
+import { ITechnology } from "../../context/UserContext";
 
 interface IProps {
   title: string;

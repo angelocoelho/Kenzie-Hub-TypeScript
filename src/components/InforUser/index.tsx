@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { UserContext } from "../../context/UseContext";
+import { UserContext } from "../../context/UserContext";
 
 import Container from "./style";
 

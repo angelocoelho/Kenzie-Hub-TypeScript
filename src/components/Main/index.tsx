@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import { UserContext } from "../../context/UseContext";
 import Modal from "../Modal";
 import Container from "./style";
 import { BsTrash } from "react-icons/bs";
 import { IoIosAdd } from "react-icons/io";
 import { TechContext } from "../../context/TechContext";
+import { UserContext } from "../../context/UserContext";
 
 function Main() {
   const { modalAtt, openModal, deleteTech } = useContext(TechContext);
