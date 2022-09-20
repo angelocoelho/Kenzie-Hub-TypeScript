@@ -61,7 +61,7 @@ function Login() {
           Cadastre-se
         </Link>
       </div>
-    </Containe>
+    </Container>
   );
 }
 
